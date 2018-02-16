@@ -1,0 +1,97 @@
+<!DOCtype html>
+<html lang="en">
+<head>
+<title>Southern Charm
+<style>
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+body {}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: georgia;
+	font-size: 60px;
+	font-style: oblique;
+	outline-style: inset;
+}
+
+p {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+	text-decoration-color: aliceblue;
+	outline-style: oblique;
+}
+
+h2 {
+	color: aliceblue;
+	text-align: left;
+	font-family: serif;
+	font-size: 50px;
+	list-style-position: inside;
+	background: aqua;
+	margin-left: 0 auto;
+	outline-style: ridge
+}
+
+h3 {
+	color: aliceblue;
+	text-align: left;
+	font-family: serif;
+	font-size: 50px;
+	background: aqua;
+	margin-left: 0 auto;
+	outline-style: ridge;
+	text-decoration-color: aliceblue;
+	text-decoration-style: dashed;
+}
+
+h4 {
+	color: aliceblue;
+	text-align: center;
+	font-family: serif;
+	font-size: 50px;
+	margin-left:0 auto;
+	outline-style: ridge;
+	text-decoration-color:aliceblue;
+	text-decoration-style: dashed;
+}
+
+ul {
+	list-style: square inside url ("sqpurple.gif");
+}
+
+.main nav {
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+	margin-right: auto;
+}
+
+.main-nav li {
+	display: inline-block;
+}
+
+.main nav li a {}
+
+p {
+	outline-style: outset;
+	text-decoration-style: solid;
+}
